@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div>
+                <input id="display">
+                <button onclick="myFunc('AC')">AC</button>
+            </div>
+            <div class="col-1">
+                <button onclick="myFunc(1)">1</button>
+                <button onclick="myFunc(2)">2</button>
+                <button onclick="myFunc(3)">3</button>
+                <button onclick="myFunc('+')">+</button>
+            </div>
+            <div class="col-2">
+                <button onclick="myFunc(4)">4</button>
+                <button onclick="myFunc(5)">5</button>
+                <button onclick="myFunc(6)">6</button>
+                <button onclick="myFunc('-')">-</button>
+            </div>
+            <div class="col-3">
+                <button onclick="myFunc(7)">7</button>
+                <button onclick="myFunc(8)">8</button>
+                <button onclick="myFunc(9)">9</button>
+                <button onclick="myFunc('*')">*</button>
+            </div>
+            <div class="col-4">
+                <button onclick="myFunc('.')">.</button>
+                <button onclick="myFunc(0)">0</button>                
+                <button onclick="myFunc('=')">=</button>
+                <button onclick="myFunc('/')">/</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
